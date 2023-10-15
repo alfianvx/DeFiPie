@@ -4,7 +4,7 @@ export default function Partners() {
   return (
     <section className="w-full bg-white py-10 md:py-20 lg:py-32">
       <div className="max-w-5xl mx-auto">
-        <h1 className="text-[#23155B] text-center text-sm mb-8">
+        <h1 className="text-[#23155B] text-center text-sm md:text-base mb-8">
           Brought to you by DeFiPie in partnership with
         </h1>
         <div className="flex flex-wrap justify-center">
