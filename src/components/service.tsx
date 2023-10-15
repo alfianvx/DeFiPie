@@ -11,13 +11,11 @@ export default function Service() {
         </h2>
         <div className="flex flex-wrap gap-3 my-12">
           <div className="flex gap-4 p-4 bg-white w-full md:w-[49%] drop-shadow rounded-md">
-            <div>
-              <img
-                src="/icons/checklist.png"
-                alt="checklist-icon"
-                className="w-6"
-              />
-            </div>
+            <img
+              src="/icons/checklist.png"
+              alt="checklist-icon"
+              className="h-max mt-1"
+            />
             <div className="text-black">
               <h1 className="font-medium text-base md:text-lg">
                 Low entry prices on DeFi tokens
@@ -25,13 +23,11 @@ export default function Service() {
             </div>
           </div>
           <div className="flex gap-4 p-4 bg-white w-full md:w-[49%] drop-shadow rounded-md">
-            <div>
-              <img
-                src="/icons/checklist.png"
-                alt="checklist-icon"
-                className="w-6"
-              />
-            </div>
+            <img
+              src="/icons/checklist.png"
+              alt="checklist-icon"
+              className="h-max mt-1"
+            />
             <div className="text-black">
               <h1 className="font-medium text-base md:text-lg">
                 Fully decentralized{" "}
@@ -39,13 +35,11 @@ export default function Service() {
             </div>
           </div>
           <div className="flex gap-4 p-4 bg-white w-full md:w-[49%] drop-shadow rounded-md">
-            <div>
-              <img
-                src="/icons/checklist.png"
-                alt="checklist-icon"
-                className="w-8"
-              />
-            </div>
+            <img
+              src="/icons/checklist.png"
+              alt="checklist-icon"
+              className="h-max mt-1"
+            />
             <div className="text-black">
               <h1 className="font-medium text-base md:text-lg">
                 Only vetted projects that passed our due diligence
@@ -53,9 +47,11 @@ export default function Service() {
             </div>
           </div>
           <div className="flex gap-4 p-4 bg-white w-full md:w-[49%] drop-shadow rounded-md">
-            <div>
-              <img src="/icons/checklist.png" alt="checklist-icon" />
-            </div>
+            <img
+              src="/icons/checklist.png"
+              alt="checklist-icon"
+              className="h-max mt-1"
+            />
             <div className="text-black">
               <h1 className="font-medium text-base md:text-lg">
                 New projects every month
@@ -63,13 +59,11 @@ export default function Service() {
             </div>
           </div>
           <div className="flex gap-4 p-4 bg-white w-full md:w-[49%] drop-shadow rounded-md">
-            <div>
-              <img
-                src="/icons/checklist.png"
-                alt="checklist-icon"
-                className="w-10"
-              />
-            </div>
+            <img
+              src="/icons/checklist.png"
+              alt="checklist-icon"
+              className="h-max mt-1"
+            />
             <div className="text-black">
               <h1 className="font-medium text-base md:text-lg">
                 High chance of success thanks to our incubation program
@@ -77,13 +71,11 @@ export default function Service() {
             </div>
           </div>
           <div className="flex gap-4 p-4 bg-white w-full md:w-[49%] drop-shadow rounded-md">
-            <div>
-              <img
-                src="/icons/checklist.png"
-                alt="checklist-icon"
-                className="w-8"
-              />
-            </div>
+            <img
+              src="/icons/checklist.png"
+              alt="checklist-icon"
+              className="h-max mt-1"
+            />
             <div className="text-black">
               <h1 className="font-medium text-base md:text-lg">
                 Yield farming rewards in PIE{" "}

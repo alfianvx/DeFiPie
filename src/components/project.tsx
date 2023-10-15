@@ -14,13 +14,12 @@ export default function Project() {
         </p>
         <div className="flex flex-wrap gap-3 mb-6 md:mb-10">
           <div className="flex gap-4 p-5 bg-white w-full md:w-[49%] drop-shadow rounded-md">
-            <div>
-              <img
-                src="/icons/checklist.png"
-                alt="checklist-icon"
-                className="pt-1 w-8"
-              />
-            </div>
+            <img
+              src="/icons/checklist.png"
+              alt="checklist-icon"
+              className="h-max mt-1
+              "
+            />
             <div className="text-black">
               <h1 className="font-medium text-base md:text-lg">
                 Decentralized Invesment
@@ -31,13 +30,11 @@ export default function Project() {
             </div>
           </div>
           <div className="flex gap-4 p-5 bg-white w-full md:w-[49%] drop-shadow rounded-md">
-            <div>
-              <img
-                src="/icons/checklist.png"
-                alt="checklist-icon"
-                className="pt-1"
-              />
-            </div>
+            <img
+              src="/icons/checklist.png"
+              alt="checklist-icon"
+              className="h-max mt-1"
+            />
             <div className="text-black">
               <h1 className="font-medium text-base md:text-lg">
                 Access to professional investors
@@ -48,13 +45,11 @@ export default function Project() {
             </div>
           </div>
           <div className="flex gap-4 p-5 bg-white w-full md:w-[49%] drop-shadow rounded-md">
-            <div>
-              <img
-                src="/icons/checklist.png"
-                alt="checklist-icon"
-                className="pt-1"
-              />
-            </div>
+            <img
+              src="/icons/checklist.png"
+              alt="checklist-icon"
+              className="h-max mt-1"
+            />
             <div className="text-black">
               <h1 className="font-medium text-base md:text-lg">
                 Exchange relations
@@ -65,13 +60,11 @@ export default function Project() {
             </div>
           </div>
           <div className="flex gap-4 p-5 bg-white w-full md:w-[49%] drop-shadow rounded-md">
-            <div>
-              <img
-                src="/icons/checklist.png"
-                alt="checklist-icon"
-                className="pt-1 w-8"
-              />
-            </div>
+            <img
+              src="/icons/checklist.png"
+              alt="checklist-icon"
+              className="h-max mt-1"
+            />
             <div className="text-black">
               <h1 className="font-medium text-base md:text-lg">Staking</h1>
               <p className="font-thin text-xs md:text-base">
@@ -79,10 +72,12 @@ export default function Project() {
               </p>
             </div>
           </div>
-          <div className="flex items-center gap-4 p-5 bg-white w-full md:w-[49%] drop-shadow rounded-md">
-            <div>
-              <img src="/icons/checklist.png" alt="checklist-icon" />
-            </div>
+          <div className="flex gap-4 p-5 bg-white w-full md:w-[49%] drop-shadow rounded-md">
+            <img
+              src="/icons/checklist.png"
+              alt="checklist-icon"
+              className="h-max mt-1"
+            />
             <div className="text-black">
               <h1 className="font-medium text-base md:text-lg">
                 Product-market fit analysis
@@ -90,9 +85,11 @@ export default function Project() {
             </div>
           </div>
           <div className="flex gap-4 p-5 bg-white w-full md:w-[49%] drop-shadow rounded-md">
-            <div>
-              <img src="/icons/checklist.png" alt="checklist-icon" />
-            </div>
+            <img
+              src="/icons/checklist.png"
+              alt="checklist-icon"
+              className="h-max mt-1"
+            />
             <div className="text-black">
               <h1 className="font-medium text-base md:text-lg">
                 Detailed tokenomics
@@ -100,9 +97,11 @@ export default function Project() {
             </div>
           </div>
           <div className="flex gap-4 p-5 bg-white w-full md:w-[49%] drop-shadow rounded-md">
-            <div>
-              <img src="/icons/checklist.png" alt="checklist-icon" />
-            </div>
+            <img
+              src="/icons/checklist.png"
+              alt="checklist-icon"
+              className="h-max mt-1"
+            />
             <div className="text-black">
               <h1 className="font-medium text-base md:text-lg">
                 Smart contract audit
@@ -110,13 +109,11 @@ export default function Project() {
             </div>
           </div>
           <div className="flex gap-4 p-5 bg-white w-full md:w-[49%] drop-shadow rounded-md">
-            <div>
-              <img
-                src="/icons/checklist.png"
-                alt="checklist-icon"
-                className="pt-1 w-8"
-              />
-            </div>
+            <img
+              src="/icons/checklist.png"
+              alt="checklist-icon"
+              className="h-max mt-1"
+            />
             <div className="text-black">
               <h1 className="font-medium text-base md:text-lg">
                 Community-building and social media marketing
@@ -124,13 +121,11 @@ export default function Project() {
             </div>
           </div>
           <div className="flex gap-4 p-5 bg-white w-full md:w-[49%] drop-shadow rounded-md">
-            <div>
-              <img
-                src="/icons/checklist.png"
-                alt="checklist-icon"
-                className="pt-1 w-10"
-              />
-            </div>
+            <img
+              src="/icons/checklist.png"
+              alt="checklist-icon"
+              className="h-max mt-1"
+            />
             <div className="text-black">
               <h1 className="font-medium text-base md:text-lg">
                 White Paper, blog, and media content from the best authors{" "}
