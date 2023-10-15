@@ -4,7 +4,7 @@ import Partners from "@/components/partners";
 import Purpose from "@/components/purpose";
 import Reason from "@/components/reason";
 import Service from "@/components/service";
-import Vision from "@/components/vision";
+import Project from "@/components/project";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <Listing />
       <Reason />
-      <Vision />
+      <Project />
       <Service />
       <Purpose />
       <Partners />
