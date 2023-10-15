@@ -50,18 +50,18 @@ export default function Footer() {
           </form>
           <div className="flex flex-col justify-end flex-grow w-full md:w-1/2">
             <div className="flex justify-end gap-5 mb-4">
-              <div>
+              <a href="">
                 <img src="/socials/facebook.png" alt="fb-logo" />
-              </div>
-              <div>
+              </a>
+              <a href="">
                 <img src="/socials/twitter.png" alt="twitter-logo" />
-              </div>
-              <div>
+              </a>
+              <a href="">
                 <img src="/socials/telegram.png" alt="telegram-logo" />
-              </div>
-              <div>
+              </a>
+              <a href="">
                 <img src="/socials/github.png" alt="github-logo" />
-              </div>
+              </a>
             </div>
             <div className="flex justify-end gap-2 md:gap-5 font-light">
               <a
