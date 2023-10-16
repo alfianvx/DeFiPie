@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Project() {
   return (
-    <section className="w-full bg-gradient-to-b from-zinc-50 to-white py-10 md:py-20 lg:py-32 relative z-10 lg  :rounded-tl-[200px] overflow-hidden">
-      <div className="max-w-5xl mx-auto px-5 md:px-10 ">
+    <section className="w-full bg-gradient-to-b from-zinc-50 to-white py-10 md:py-20 lg:py-32 relative z-10 lg:rounded-tl-[150px] overflow-hidden">
+      <div className="max-w-7xl mx-auto px-5 md:px-10 ">
         <h3 className="text-[#8053FF] font-semibold mb-4">- For Projects</h3>
         <h1 className="text-black text-4xl md:text-5xl font-bold mb-4">
           Vision is the <span className="text-[#8053FF]">answer</span>

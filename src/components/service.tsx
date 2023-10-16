@@ -3,7 +3,7 @@ import React from "react";
 export default function Service() {
   return (
     <section className="w-full bg-zinc-50 py-10 md:py-20 lg:py-36 relative z-10 lg:rounded-tr-[200px] overflow-hidden">
-      <div className="max-w-5xl px-5 md:px-10 mx-auto">
+      <div className="max-w-7xl px-5 md:px-10 mx-auto">
         <h3 className="text-[#8053FF] font-semibold mb-4">- For Investors</h3>
         <h2 className="text-black text-3xl md:text-5xl font-bold mb-4 w-9/12">
           Access <span className="text-[#8053FF]">high-potential</span> DeFi

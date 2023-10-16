@@ -3,7 +3,7 @@ import React from "react";
 export default function Reason() {
   return (
     <section className="w-full bg-white pb-10 md:pb-20 lg:pb-32">
-      <div className="max-w-5xl mx-auto px-5 md:px-10 flex flex-wrap justify-between">
+      <div className="max-w-7xl mx-auto px-5 md:px-10 flex flex-wrap justify-between">
         <div className="w-full lg:w-1/2">
           <h1 className="text-black text-4xl md:text-5xl lg:text-5xl mb-5 leading-tight font-bold">
             Traditional Fundraising{" "}

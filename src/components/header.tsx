@@ -9,8 +9,8 @@ export default function Header() {
   };
 
   return (
-    <header className="w-full bg-white fixed z-50">
-      <nav className="max-w-5xl mx-auto py-4 px-5 md:px-10 flex items-center justify-between">
+    <header className="w-full bg-white fixed top-0 z-50">
+      <nav className="max-w-7xl mx-auto py-4 px-5 md:px-10 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img
             src="/icons/nav-icon.png"

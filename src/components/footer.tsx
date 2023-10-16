@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="w-full py-10 md:py-24 bg-[#23155B] lg:rounded-tl-[200px] overflow-hidden relative z-10">
-      <div className="max-w-5xl mx-auto px-5 md:px-10 z-10">
+    <footer className="w-full py-10 md:py-32 bg-[#23155B] lg:rounded-tl-[150px] overflow-hidden relative z-10">
+      <div className="max-w-7xl mx-auto px-5 md:px-10 z-10">
         <div className="mb-12">
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight leading-tight mb-4">
             <span className="text-[#8053FF] block">Join</span> Vision Capital

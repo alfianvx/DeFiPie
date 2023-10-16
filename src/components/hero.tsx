@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className="w-full bg-white py-14 md:py-24">
-      <div className="max-w-5xl h-[596px] mx-auto bg-zinc-50 flex flex-col items-center justify-center relative z-10">
+    <section className="w-full mt-[70px] flex items-center bg-zinc-50 py-32 md:py-[210px] relative z-10">
+      <div className="max-w-7xl mx-auto flex flex-col items-center justify-center z-10">
         <h1 className="text-[#23155B] font-bold text-5xl md:text-6xl mb-5 md:mb-6">
           Vision Capital
         </h1>
@@ -24,17 +24,17 @@ export default function Hero() {
             Become an Investor
           </a>
         </div>
-        <img
-          src="/background/bg-texture-right.png"
-          alt="bg-textture"
-          className="absolute top-0 left-0 -z-10"
-        />
-        <img
-          src="/background/bg-texture-left.png"
-          alt="bg-textture"
-          className="absolute top-0 right-0 -z-10"
-        />
       </div>
+      <img
+        src="/background/bg-img-hero-left.png"
+        alt="bg-texture-footer"
+        className="absolute top-5 left-0 -z-10"
+      />
+      <img
+        src="/background/bg-img-hero-right.png"
+        alt="bg-texture-footer"
+        className="absolute top-0 right-0 -z-10"
+      />
     </section>
   );
 }

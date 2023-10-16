@@ -3,7 +3,7 @@ import React from "react";
 export default function Purpose() {
   return (
     <section className="w-full bg-gradient-to-b from-zinc-50 to-white py-10 md:py-18 lg:py-40">
-      <div className="max-w-5xl mx-auto flex items-center gap-5 relative">
+      <div className="max-w-7xl mx-auto flex items-center gap-5 relative">
         <div>
           <img
             src="/icons/defipie-logo-bg.png"
