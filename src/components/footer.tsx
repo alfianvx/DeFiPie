@@ -37,7 +37,7 @@ export default function Footer() {
               </label>
               <input type="text" className="p-2 rounded-md text-black" />
             </div>
-            <div className="flex flex-col w-full mb-3">
+            <div className="flex flex-col w-full mb-5 md:mb-3">
               <label htmlFor="" className="text-xs font-thin mb-3">
                 Telegram name
               </label>
