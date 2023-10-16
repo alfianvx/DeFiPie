@@ -45,7 +45,7 @@ export default function Footer() {
             </div>
             <input
               type="submit"
-              className="bg-[#8053FF] py-3 px-6 text-sm font-thin rounded-md w-2/3 cursor-pointer"
+              className="bg-[#8053FF] py-3 px-6 text-sm font-thin rounded-md cursor-pointer"
             />
           </form>
           <div className="flex flex-col justify-end flex-grow w-full md:w-1/2">
