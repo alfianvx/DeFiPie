@@ -17,7 +17,7 @@ export default function Footer() {
           <form
             action="#"
             method="post"
-            className="grid md:grid-cols-2 gap-3 items-end mb-24 md:mb-0 w-full md:w-1/2"
+            className="grid md:grid-cols-2 gap-3 items-end mb-16 md:mb-0 w-full md:w-1/2"
           >
             <div className="flex flex-col w-full mb-3">
               <label htmlFor="" className="text-xs font-thin mb-3">
@@ -49,7 +49,7 @@ export default function Footer() {
             />
           </form>
           <div className="flex flex-col justify-end flex-grow w-full md:w-1/2">
-            <div className="flex justify-end gap-5 mb-4">
+            <div className="flex justify-center md:justify-end gap-6 mb-8">
               <a href="">
                 <img src="/socials/facebook.png" alt="fb-logo" />
               </a>
@@ -63,7 +63,7 @@ export default function Footer() {
                 <img src="/socials/github.png" alt="github-logo" />
               </a>
             </div>
-            <div className="flex justify-end gap-2 md:gap-5 font-light">
+            <div className="flex justify-center md:justify-end gap-3 md:gap-5 font-light">
               <a
                 href=""
                 className="border-b-[1px] text-sm border-zinc-400 text-zinc-200"
