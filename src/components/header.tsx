@@ -31,26 +31,42 @@ export default function Header() {
           </a>
         </div>
         <button className="md:hidden flex flex-col" onClick={toggleMenu}>
-          <span className="w-8 h-[3px] mb-[5px] rounded-md bg-[#23155B]"></span>
-          <span className="w-8 h-[3px] mb-[5px] rounded-md bg-[#23155B]"></span>
-          <span className="w-8 h-[3px] mb-[5px] rounded-md bg-[#23155B]"></span>
+          <span
+            className={`w-5 h-[3px] mb-[5px] rounded-md bg-[#23155B] ${
+              isMenuVisible
+                ? "rotate-45 transition ease-in-out duration-100"
+                : ""
+            }`}
+          ></span>
+          <span
+            className={`w-8 h-[3px] mb-[5px] rounded-md bg-[#23155B] ${
+              isMenuVisible ? "opacity-0 ease-in-out duration-100" : ""
+            }`}
+          ></span>
+          <span
+            className={`w-8 h-[3px] mb-[5px] rounded-md bg-[#23155B] ${
+              isMenuVisible ? "-rotate-45 ease-in-out duration-100" : ""
+            }`}
+          ></span>
         </button>
       </nav>
-      {isMenuVisible && (
-        <div className="md:hidden">
-          <div className="w-full min-h-screen flex flex-col gap-20 items-center py-24 px-5 bg-white fixed left-0 ease-in-out duration-300">
-            <a href="" className="text-black">
-              For Projects
-            </a>
-            <a href="" className="text-black">
-              For Investors
-            </a>
-            <a href="" className="py-4 px-10 bg-[#8053FF] rounded-md">
-              Join Now
-            </a>
-          </div>
-        </div>
-      )}
+      <div
+        className={`md:hidden ${
+          isMenuVisible
+            ? "translate-x-0 opacity-100"
+            : "-translate-x-full opacity-100"
+        } w-full min-h-screen flex flex-col gap-20 items-center py-24 px-5 bg-white fixed left-0 transition-transform ease-in-out duration-300`}
+      >
+        <a href="" className="text-black">
+          For Projects
+        </a>
+        <a href="" className="text-black">
+          For Investors
+        </a>
+        <a href="" className="py-4 px-10 bg-[#8053FF] rounded-md">
+          Join Now
+        </a>
+      </div>
     </header>
   );
 }
